@@ -1,0 +1,29 @@
+{
+  "name": "@oogg/engine",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "dat.gui": "^0.7.9",
+    "detect-gpu": "^5.0.37",
+    "postprocessing": "6.30.1",
+    "simplex-noise": "^2.4.0",
+    "stats.js": "^0.17.0",
+    "@dimforge/rapier3d": "0.11.2",
+    "three": "file:./three",
+    "draco3dgltf": "^1.5.6"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "worker-loader": "^3.0.8"
+  },
+  "files": [
+    "dist",
+    "LICENCE"
+  ]
+}

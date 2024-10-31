@@ -1,0 +1,61 @@
+import Events from "engine/events/events";
+
+export const ScriptEvents = {
+    KEY_DOWN: Events.KEY_DOWN,
+
+    KEY_UP: Events.KEY_UP,
+
+    MOUSE_DOWN: Events.MOUSE_DOWN,
+
+    MOUSE_MOVE: Events.MOUSE_MOVE,
+
+    MOUSE_UP: Events.MOUSE_UP,
+
+    // TOUCH_MOVE: Events.TOUCH_MOVE,
+
+    // TOUCH_START: Events.TOUCH_START,
+
+    // TOUCH_END: Events.TOUCH_END,
+
+    WHEEL: Events.WHEEL,
+
+    //
+
+    GAME_SPACE_LOADED: Events.GAME_SPACE_LOADED,
+
+    GAME_INIT: Events.GAME_INIT,
+
+    GAME_READY: Events.GAME_READY,
+
+    GAME_START: Events.GAME_START,
+
+    GAME_DISPOSE: Events.GAME_DISPOSE,
+
+    GAME_END: Events.GAME_END,
+
+    GAME_PAUSE: Events.GAME_PAUSE,
+
+    GAME_PRE_UPDATE: Events.GAME_DAWN_UPDATE,
+
+    GAME_UPDATE: Events.GAME_UPDATE,
+
+    GAME_FRAME : Events.GAME_FRAME,
+
+    GAME_FIXED_UPDATE: Events.GAME_FIXED_UPDATE,
+
+    GAME_AFTER_FIXED_UPDATE: Events.GAME_AFTER_FIXED_UPDATE,
+
+    GAME_FIXED_INTERPOLATE: Events.GAME_FIXED_INTERPOLATE,
+
+    GAME_RESUME: Events.GAME_RESUME,
+
+    //
+
+    GAME_NOTIFY_PAUSE: Events.GAME_NOTIFY_PAUSE,
+
+    GAME_NOTIFY_RESUME: Events.GAME_NOTIFY_RESUME,
+
+    FIXED_UPDATE: Events.FIXED_UPDATE,
+
+    AFTER_FIXED_UPDATE: Events.AFTER_FIXED_UPDATE,
+};
